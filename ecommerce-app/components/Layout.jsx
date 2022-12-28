@@ -7,11 +7,11 @@ import Footer from './Footer';
 function Layout({children}) {
   return (
     <div className='layout'>
-      <head>
+      <>
         <title>
           Next ecommerce
         </title>
-      </head>
+      </>
       <header>
         <Navbar/>
       </header>
