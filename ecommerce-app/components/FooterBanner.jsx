@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { urlFor } from '../lib/client';
 
@@ -15,13 +16,13 @@ function FooterBanner({footerBanner: {discount, largeText1,desc, largeText2, sal
 
         </div>
         <div>
-        <img src={urlFor(image)} className='foot-image' alt=""  />
+        <image src={urlFor(image)} className='foot-image' alt=""  />
         </div>
         <div className='right'>
           <p>{smallText}</p>
           <h3>{midText}</h3>
           <p>{desc}</p>
-          <Link href={`/product/${product}`}>
+          <Link href={`/product/${product}`} passHref>
             <button type='button'>{buttonText}</button>
           </Link>
 
