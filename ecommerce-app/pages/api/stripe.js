@@ -1,4 +1,4 @@
-import Stripe from 'stripe';
+/*import Stripe from 'stripe';
 
 const stripe = new Stripe(process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY);
 
@@ -48,4 +48,4 @@ export default async function handler(req, res) {
     res.setHeader('Allow', 'POST');
     res.status(405).end('Method Not Allowed');
   }
-}
+}*/
