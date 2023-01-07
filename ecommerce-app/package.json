@@ -24,7 +24,7 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.7.1",
-    "react-state-context": "^1.0.0"
+    "react-state-context": "^0.0.1"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",
